@@ -7,21 +7,20 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 
 namespace AudioVideo
 {
-	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
-	class VideoActivity: Activity
-	{
-		protected override void OnCreate(Bundle savedInstanceState)
-		{
-			base.OnCreate(savedInstanceState);
+    [Activity(Label = "AudioVideo", MainLauncher = false)]
+    class VideoActivity : Activity
+    {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
 
-			//SetContentView(Resource.Layout.activity_main);
+            //SetContentView(Resource.Layout.activity_main);
 
-		}
-	}
+        }
+    }
 }

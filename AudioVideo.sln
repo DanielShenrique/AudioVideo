@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioVideo", "AudioVideo\AudioVideo.csproj", "{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioVideo", "AudioVideo\AudioVideo.csproj", "{4A61B7E7-D575-4618-B887-7020AEED3B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4BB7544-4A3A-45DF-B25A-43B80AF53E5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A61B7E7-D575-4618-B887-7020AEED3B3D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FA98766E-8E89-47AD-964C-5BB668FD95BE}
+		SolutionGuid = {CC767946-1E86-4C43-81DE-ACF2D91D9505}
 	EndGlobalSection
 EndGlobal

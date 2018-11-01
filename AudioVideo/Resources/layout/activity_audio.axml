@@ -3,16 +3,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/StartAudio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Start"
-        android:layout_marginTop="150dp" />
-    <Button
-        android:id="@+id/StopAudio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Stop"
-        android:layout_marginTop="20dp" />
+  <Button
+      android:id="@+id/StartAudio"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Start"
+      android:layout_marginTop="150dp" />
+  <Button
+      android:id="@+id/StopAudio"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Stop"
+      android:layout_marginTop="20dp" />
 </LinearLayout>

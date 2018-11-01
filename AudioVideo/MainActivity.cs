@@ -1,38 +1,37 @@
 ﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Support.V7.App;
 using Android.Widget;
+using Android.OS;
+using Android.Content;
 
 namespace AudioVideo
 {
-	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    [Activity(Label = "AudioVideo", MainLauncher = true)]
+    public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.Main);
 
-			Button audio = (Button)FindViewById(Resource.Id.Audio);
-			Button video = (Button)FindViewById(Resource.Id.Video);
+            Button audio = (Button)FindViewById(Resource.Id.Audio);
+            Button video = (Button)FindViewById(Resource.Id.Video);
 
-			audio.Click += GoToTheAudio;
-			video.Click += GoToTheVideo;
+            audio.Click += GoToTheAudio;
+            video.Click += GoToTheVideo;
         }
 
-		void GoToTheAudio(object sender, System.EventArgs e)
-		{
-			Intent i = new Intent(this, typeof(AudioActivity));
-			this.StartActivity(i);
-		}
-		void GoToTheVideo(object sender, System.EventArgs e)
-		{
-			Intent i = new Intent(this, typeof(VideoActivity));
-			this.StartActivity(i);
-		}
+        void GoToTheAudio(object sender, System.EventArgs e)
+        {
+            Intent i = new Intent(this, typeof(AudioActivity));
+            this.StartActivity(i);
+        }
+        void GoToTheVideo(object sender, System.EventArgs e)
+        {
+            Intent i = new Intent(this, typeof(VideoActivity));
+            this.StartActivity(i);
+        }
     }
 }
 
