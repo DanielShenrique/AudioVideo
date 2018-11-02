@@ -15,7 +15,6 @@ C:\Users\aluno\Desktop\AudioVideo\AudioVideo\obj\Debug\R.cs.flag
 C:\Users\aluno\Desktop\AudioVideo\AudioVideo\obj\Debug\uploadflags.txt
 C:\Users\aluno\Desktop\AudioVideo\AudioVideo\bin\Debug\AudioVideo.dll.mdb
 C:\Users\aluno\Desktop\AudioVideo\AudioVideo\obj\Debug\android\assets\AudioVideo.dll.mdb
-C:\Users\aluno\Desktop\AudioVideo\AudioVideo\bin\Debug\AudioVideo.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
@@ -37,3 +36,6 @@ obj\Debug\linksrc\System.Runtime.Serialization.pdb
 obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 obj\Debug\linksrc\Mono.Security.pdb
 obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\danie\Documents\GitHub\AudioVideo\AudioVideo\obj\Debug\AudioVideo.csprojAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\AudioVideo\AudioVideo\obj\Debug\AudioVideo.dll
+C:\Users\danie\Documents\GitHub\AudioVideo\AudioVideo\obj\Debug\AudioVideo.pdb

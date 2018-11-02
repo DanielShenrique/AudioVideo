@@ -3,5 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <SelectedDevice>Samsung SM-J530G</SelectedDevice>
+    <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
   </PropertyGroup>
 </Project>
